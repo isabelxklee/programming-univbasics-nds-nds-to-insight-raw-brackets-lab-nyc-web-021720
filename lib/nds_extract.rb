@@ -30,4 +30,4 @@ def directors_totals(nds)
     row_index += 1
   end
   results
-  
+end

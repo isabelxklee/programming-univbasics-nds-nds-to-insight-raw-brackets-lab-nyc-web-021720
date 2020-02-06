@@ -1,6 +1,7 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 require 'pp'
+require 'pry'
 
 # In this lab, you're going to work through the directors database and create a
 # `Hash` that records the director's name as a key, and the total grosses of all of their

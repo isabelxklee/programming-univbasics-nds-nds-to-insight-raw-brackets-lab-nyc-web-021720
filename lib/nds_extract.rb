@@ -26,7 +26,7 @@ def directors_totals(nds)
         x = 0
         x += directors_database[row_index][:movies][movie_index][:worldwide_gross]
         movie_index += 1
-        results[director_name] = x
+        results[director_name] = x 
       end 
     row_index += 1
   end

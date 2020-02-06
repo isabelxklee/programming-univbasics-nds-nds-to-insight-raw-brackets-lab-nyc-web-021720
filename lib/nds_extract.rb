@@ -18,9 +18,9 @@ require 'pry'
 def directors_totals(nds)
   results = {}
   row_index = 0
-  director_name = nds[row_index][:name]
   
-  while row_index < nds.length do 
+  while row_index < nds.length do
+    director_name = nds[row_index][:name]
     results[director_name] = 0
     movie_index = 0
       while movie_index < nds[row_index][:movies].length do 
